@@ -16,7 +16,7 @@ spec:
         app: myapp1
     spec:
       containers:
-      - image: 497330444611.dkr.ecr.us-east-1.amazonaws.com/test/eks-projecct:latest
+      - image: 497330444611.dkr.ecr.us-east-1.amazonaws.com/test/eks-projecct:18
         name: eks-projecct
         resources: {}
 status: {}
