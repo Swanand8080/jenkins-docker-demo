@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: myapp1
+  name: myapp1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp1
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: myapp1
+    spec:
+      containers:
+      - image: 497330444611.dkr.ecr.us-east-1.amazonaws.com/test/eks-projecct:latest
+        name: eks-projecct
+        resources: {}
+status: {}
