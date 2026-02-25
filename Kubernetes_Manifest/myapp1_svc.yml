@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: myapp1
-  name: myapp1_svc
+  name: myapp1-svc
 spec:
   ports:
   - port: 80
