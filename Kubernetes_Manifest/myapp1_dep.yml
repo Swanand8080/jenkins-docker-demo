@@ -18,7 +18,6 @@ spec:
       containers:
       - image: 497330444611.dkr.ecr.us-east-1.amazonaws.com/test/eks-projecct:Builder_ID
         name: eks-projecct
-        resources: 
         resources:
           requests:
             cpu: "100m"
