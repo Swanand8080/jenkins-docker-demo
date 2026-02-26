@@ -19,7 +19,6 @@ spec:
       - image: httpd
         name: httpd
         resources:
-        resources:
           requests:
             cpu: "100m"
           limits:
