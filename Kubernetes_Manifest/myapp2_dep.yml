@@ -18,5 +18,10 @@ spec:
       containers:
       - image: httpd
         name: httpd
-        resources: {}
+        resources:
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "500m"
 status: {}
